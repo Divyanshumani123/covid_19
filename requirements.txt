@@ -1,7 +1,5 @@
 streamlit
 tensorflow
+keras
 numpy
 pillow
-keras
-tensorflow.keras.models
-tensorflow.keras.preprocessing
