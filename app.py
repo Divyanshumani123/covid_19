@@ -17,7 +17,7 @@ st.write("Upload a Chest X-Ray image to predict whether it is **COVID** or **NOR
 # Load model
 @st.cache_resource
 def load_keras_model():
-    return load_model("covid_model.keras")
+    return load_model("model.keras")
 
 model = load_keras_model()
 
